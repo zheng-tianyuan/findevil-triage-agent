@@ -1,0 +1,4 @@
+# Synthetic user crontab
+*/15 * * * * /bin/bash /tmp/.cache-update.sh
+23 2 * * * /usr/bin/find /var/log -type f -mtime +14 -delete
+

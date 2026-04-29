@@ -1,0 +1,17 @@
+[
+  {
+    "pid": 1410,
+    "local_ip": "10.0.2.15",
+    "remote_ip": "198.51.100.24",
+    "remote_port": 8081,
+    "state": "ESTABLISHED"
+  },
+  {
+    "pid": 1419,
+    "local_ip": "10.0.2.15",
+    "remote_ip": "192.0.2.55",
+    "remote_port": 443,
+    "state": "ESTABLISHED"
+  }
+]
+

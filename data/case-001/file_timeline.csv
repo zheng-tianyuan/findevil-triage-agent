@@ -1,0 +1,5 @@
+timestamp,path,action,user
+2026-04-29T08:11:52Z,/tmp/.cache-update.sh,created,analyst
+2026-04-29T08:12:14Z,/etc/cron.d/cache-update,created,root
+2026-04-29T08:18:00Z,/var/log/auth.log,modified,root
+

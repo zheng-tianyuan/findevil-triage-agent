@@ -1,0 +1,6 @@
+Apr 29 08:10:01 sift-demo sshd[1001]: Failed password for invalid user admin from 203.0.113.77
+Apr 29 08:10:06 sift-demo sshd[1002]: Failed password for invalid user admin from 203.0.113.77
+Apr 29 08:10:12 sift-demo sshd[1003]: Failed password for root from 203.0.113.77
+Apr 29 08:10:19 sift-demo sshd[1004]: Accepted password for analyst from 203.0.113.77
+Apr 29 08:16:42 sift-demo sudo[1020]: analyst : TTY=pts/0 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/ls
+

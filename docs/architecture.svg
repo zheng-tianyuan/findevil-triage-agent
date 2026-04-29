@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f8fafc"/>
+  <text x="60" y="70" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#111827">FindEvil Triage Agent Architecture</text>
+  <text x="60" y="110" font-family="Arial, sans-serif" font-size="18" fill="#374151">Custom MCP Server pattern with read-only evidence handling, detector passes, correlation, and self-correction.</text>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, sans-serif">
+    <rect x="60" y="170" width="220" height="110" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="90" y="215" font-size="21" font-weight="700" fill="#1e3a8a">Evidence Bundle</text>
+    <text x="90" y="245" font-size="15" fill="#1f2937">auth, process, network</text>
+    <text x="90" y="267" font-size="15" fill="#1f2937">cron, timeline, DNS</text>
+
+    <rect x="360" y="170" width="220" height="110" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="390" y="215" font-size="21" font-weight="700" fill="#166534">Inventory</text>
+    <text x="390" y="245" font-size="15" fill="#1f2937">SHA-256 hashes</text>
+    <text x="390" y="267" font-size="15" fill="#1f2937">read-only boundary</text>
+
+    <rect x="660" y="170" width="220" height="110" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="690" y="215" font-size="21" font-weight="700" fill="#92400e">Detector Passes</text>
+    <text x="690" y="245" font-size="15" fill="#1f2937">auth/process/network</text>
+    <text x="690" y="267" font-size="15" fill="#1f2937">persistence/DNS</text>
+
+    <rect x="960" y="170" width="180" height="110" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+    <text x="990" y="215" font-size="21" font-weight="700" fill="#5b21b6">Correlation</text>
+    <text x="990" y="245" font-size="15" fill="#1f2937">PID to network</text>
+    <text x="990" y="267" font-size="15" fill="#1f2937">multi-artifact claims</text>
+
+    <rect x="240" y="430" width="260" height="120" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <text x="275" y="475" font-size="21" font-weight="700" fill="#991b1b">Self-Correction</text>
+    <text x="275" y="505" font-size="15" fill="#1f2937">remove unsupported claims</text>
+    <text x="275" y="527" font-size="15" fill="#1f2937">downgrade weak high severity</text>
+
+    <rect x="610" y="430" width="260" height="120" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+    <text x="645" y="475" font-size="21" font-weight="700" fill="#075985">Final Report</text>
+    <text x="645" y="505" font-size="15" fill="#1f2937">risk scores + tactics</text>
+    <text x="645" y="527" font-size="15" fill="#1f2937">JSON report + JSONL log</text>
+
+    <rect x="60" y="620" width="1080" height="70" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+    <text x="90" y="663" font-size="19" font-weight="700" fill="#111827">Architectural guardrails:</text>
+    <text x="320" y="663" font-size="17" fill="#374151">read-only evidence, hash inventory, cited artifacts, structured execution logs, visible corrections.</text>
+
+    <line x1="280" y1="225" x2="360" y2="225" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="580" y1="225" x2="660" y2="225" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="880" y1="225" x2="960" y2="225" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="1050" y1="280" x2="430" y2="430" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="500" y1="490" x2="610" y2="490" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+  </g>
+</svg>
+
